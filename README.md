@@ -4,10 +4,11 @@
 
 Olá ;))
 <br>
-Gostaria de agradecer pelo desafio e pela oportunidade de ter feito o teste.]
+Gostaria de agradecer pelo desafio e pela oportunidade de ter feito o teste.
 
 As documentações da api estarão disponíveis no endpoint /api, por padrão o servidor sobe na porta 4000.
 Você vai precisar do docker no pc para subir o banco mysql.
+Basta rodar o arquivo sh que ele faz tudo!
 O frontend está completo, até com um tema dark se quiser aí.
 Você consegue alterar apenas os dados de marca e nome do produto no frontend, no back dá para alterar todos.
 Alterei os scripts do front para subir na porta 4000 e trabalhar numa diferente da porta do backend (3000).
