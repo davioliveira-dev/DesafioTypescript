@@ -1,0 +1,12 @@
+version: "2"
+services:
+  mysql:
+    image: mysql
+    volumes:
+      - .mysql:/var/lib/mysql
+      - ./init.sql:/data/application/init.sql
+    command: --init-file /data/application/init.sql
+    env_file:
+      - .env
+    ports:
+      - "3306:3306"
